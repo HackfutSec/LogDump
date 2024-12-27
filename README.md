@@ -1,5 +1,3 @@
----
-
 # LogDump
 
 **LogDump** is an automated SQL injection testing tool designed to test login pages for vulnerabilities. It sends injection payloads into the username and password fields to check for potential security flaws. The tool supports both single URL testing and testing multiple URLs from a file, with logging, retry mechanisms, and multi-threading for improved performance.
@@ -151,5 +149,3 @@ Contributions are welcome! Feel free to fork the repository, open issues, and su
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
